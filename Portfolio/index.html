@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <h1 class="logo">Beksultan Zholonov</h1>
+        <nav>
+        <a href="#" onclick="scrollToSection('s1')">About</a>
+        <a href="#" onclick="scrollToSection('s2')">Contact</a>
+        <a href="#" onclick="scrollToSection('s3')">Projects</a>
+       <a class="getstarted" href="#" onclick="scrollToSection('s3')">Get Started</a>
+        </nav>
+        
+      </header>
+</head>
+
+<body>
+    <div class="section"  id="s1">
+          <h1 class="Title">Hello I'm Beksultan Zholonov</h1>
+          <p class="subTitle">Passionate about crafting dynamic and engaging user experiences on the web. With extensive experience in frontend development, and also certified as following certificates:</p>
+    <div class="image-grid">
+      <img src="https://media.licdn.com/dms/image/D4D2DAQHsZ9FePkvbTw/profile-treasury-image-shrink_800_800/0/1712611507260?e=1717606800&v=beta&t=OOSKOZ3x2IEMlq5Id7pUsIE1VfRbTBkOaFE9igBz3aA" alt="">
+      <img src="https://media.licdn.com/dms/image/D4D2DAQHz3J0brdNEgw/profile-treasury-image-shrink_800_800/0/1712611252157?e=1717606800&v=beta&t=chvdz1zvp6mTupWqOej8kYdFcMCdkPuRqfCAWfbKLgQ" alt="">
+      <img src="https://hubspot-credentials-na1.s3.amazonaws.com/prod/certificates/user/4df9711ecfe04148b93e8f388c52c43d.png?onAchievementsPage=true" alt="">
+    </div>
+  </div>
+    <div class="section2" id="s2">
+          <div class="overlay">
+            <div class="popup">
+              <form action="" id="myForm">
+            
+    <label>Your Name <br> <input class="name"></input> </label> <br>
+    <label>Last Name <br>  <input class="last-name"></input> </label> <br>
+    <label> Message  <br>   <input class="message"></input> </label> <br>
+                <button class="submit" type="submit">Submit</button>
+    
+              </form>
+            </div>
+          </div> 
+  </div>
+    <div class="section3" id="s3">
+          <h1 class="Title">Latest News</h1>
+          <p class="subTitle">My projects related web development:</p>
+          <div class="images">
+            <div>
+  <a href="https://zholonov.github.io/VipHouse/" class="image-link">
+  <img class="img1" src="https://img.goodfon.ru/original/1920x1200/1/5a/novyy-god-new-year-prazdnik-7177.jpg" alt="">
+            </div>
+            <div>
+  <a href="https://beksultanzolonov.wixsite.com/mmmmm">
+  <img class="img2"  src="https://lamanzanamordida.net/app/uploads-lamanzanamordida.net/2019/08/Apple-oro.jpg" alt="">
+            </div>
+            <div>
+  <a href="https://zholonov.github.io/Full-Site/">
+  <img class="img3"  src="https://cdn.freelance.ru/img/portfolio/pics/00/38/44/3687553.jpg?mt=579d9f2f" alt="">
+            </div>
+            
+    </div>
+    </div>
+  </body>
+            
+  <script>
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+            
+  <footer id="f1">
+    <h2>Short info:</h2>
+    <a href="#">Stoklosy 3 | </a>
+    <a href="#">+48555555555  |</a>
+    <a href="#">beksultanzolonov@gmail.com</a>
+  </footer>
+</html>
